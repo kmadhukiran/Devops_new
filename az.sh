@@ -1,8 +1,8 @@
 az login -u mkancharla@nisum.com -p Changeme@123
-az group create --name myResource --location eastus
-az vm create \ --resource-group myResource \ --name  myVM \ --image CentOS \ --admin-username azureuser \ --admin-password Azure.123456
-az vm open-port --port 80 --resource-group myResource1 --name myVM
-az vm open-port --port 22 --resource-group myResource1 --name myVM
+az group create --name madhu123 --location eastus
+az vm create \ --resource-group madhu123 \ --name  myVM \ --image CentOS \ --admin-username azureuser \ --admin-password Azure.123456@e
+az vm open-port --port 80 --resource-group madhu123 --name myVM
+az vm open-port --port 22 --resource-group madhu123 --name myVM
 sshpass -p 'Azure.123456' ssh -t -t -o StrictHostKeyChecking=no azureuser@40.121.48.14 << 'ENDSSH'
 sudo -S <<< "Azure.123456" yum update -y
 sudo -S <<< "Azure.123456" yum install java-1.8.0-openjdk -y

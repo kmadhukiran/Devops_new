@@ -10,5 +10,5 @@ sudo -S <<< "Azure.123456@e" wget http://apachemirror.wuchna.com/tomcat/tomcat-9
 sudo -S <<< "Azure.123456@e" tar -xvzf apache-tomcat-9.0.29.tar.gz
 sudo -S <<< “Azure.123456@e” wget https://github.com/kmadhukiran/Devops_new/blob/master/sample.war
 sudo -S <<< “Azure.123456@e” mv sample.war /home/azureuser/apache-tomcat-9.0.29/webapps
-sudo -S <<< “Azure.123456@e” cd /home/azureuser/apache-tomcat-9.0.27/bin
+sudo -S <<< “Azure.123456@e” cd /home/azureuser/apache-tomcat-9.0.29/bin
 sudo -S <<< “Azure.123456@e” ./startup.sh

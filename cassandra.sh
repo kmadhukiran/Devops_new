@@ -1,5 +1,5 @@
-az vm open-port --port 80 --resource-group madhu123 --name myVM
-az vm open-port --port 22 --resource-group madhu123 --name myVM
+#az vm open-port --port 80 --resource-group madhu123 --name myVM
+#az vm open-port --port 22 --resource-group madhu123 --name myVM
 sshpass -p 'Azure.123456@e' ssh -t -t -o StrictHostKeyChecking=no azureuser@13.92.193.107 << 'ENDSSH'
 sudo -S <<< "Azure.123456@e" yum update -y
 sudo -S <<< "Azure.123456@e" yum install cassandra -y

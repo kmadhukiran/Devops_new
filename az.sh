@@ -6,7 +6,7 @@
 sshpass -p 'Azure.123456@e' ssh -t -t -o StrictHostKeyChecking=no azureuser@13.92.193.107 << 'ENDSSH'
 sudo -S <<< "Azure.123456@e" yum update -y
 sudo -S <<< "Azure.123456@e" yum install java-1.8.0-openjdk -y
-sudo -S <<< "Azure.123456@e" wget http://apachemirror.wuchna.com/tomcat/tomcat-9/v9.0.27/bin/apache-tomcat-9.0.27.tar.gz
+sudo -S <<< "Azure.123456@e" wget /home/azureuser/ http://apachemirror.wuchna.com/tomcat/tomcat-9/v9.0.27/bin/apache-tomcat-9.0.27.tar.gz
 sudo -S <<< "Azure.123456@e" tar -xvzf apache-tomcat-9.0.27.tar.gz
 sudo -S <<< “Azure.123456@e” scp -r /var/root/.jenkins/workspace/Azure/hello-world-war-1.0.0.war azureuser@13.92.193.107:/home/azureuser/apache-tomcat-9.0.27/webapps -p Azure.123456@e 
 sudo -S <<< “Azure.123456@e” cd /home/azureuser/apache-tomcat-9.0.27/bin

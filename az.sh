@@ -13,4 +13,5 @@ sudo -S <<< “Azure.123456@e” mv calendar.war /home/azureuser/apache-tomcat-9
 sudo -S <<< “Azure.123456@e” cd /home/azureuser/apache-tomcat-9.0.29/bin
 sudo -S <<< “Azure.123456@e” /home/azureuser/apache-tomcat-9.0.29/bin/./startup.sh << 'ENDSSH'
 sudo -S <<< “Azure.123456@e” echo "application deployed successfully"
+sudo -S <<< “Azure.123456@e” Exit << 'ENDSSH'
 Exit

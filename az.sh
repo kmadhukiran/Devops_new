@@ -11,4 +11,6 @@ sudo -S <<< "Azure.123456@e" tar -xvzf apache-tomcat-9.0.29.tar.gz
 sudo -S <<< “Azure.123456@e” wget https://github.com/kmadhukiran/Devops_new/blob/master/calendar.war
 sudo -S <<< “Azure.123456@e” mv calendar.war /home/azureuser/apache-tomcat-9.0.29/webapps
 sudo -S <<< “Azure.123456@e” cd /home/azureuser/apache-tomcat-9.0.29/bin
-sudo -S <<< “Azure.123456@e” /home/azureuser/apache-tomcat-9.0.29/bin/./startup.sh << 'ENDSSH'
+sudo -S <<< “Azure.123456@e” /home/azureuser/apache-tomcat-9.0.29/bin/./startup.sh 
+sudo -S <<< “Azure.123456@e” Exit << 'ENDSSH'
+sudo -S <<< “Azure.123456@e” Exit << 'ENDSSH'

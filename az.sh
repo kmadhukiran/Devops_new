@@ -3,7 +3,7 @@
 #az vm create  --resource-group madhu123  --name  myVM  --image CentOS  --admin-username azureuser  --admin-password Azure.123456@e  --location eastus
 #az vm open-port --port 80 --resource-group madhu123 --name myVM
 #az vm open-port --port 22 --resource-group madhu123 --name myVM
-sshpass -p 'Azure.123456@e' ssh -t -t -o StrictHostKeyChecking=no azureuser@13.92.193.107 <<EOF
+sshpass -p 'Azure.123456@e' ssh -t -t -o StrictHostKeyChecking=no azureuser@13.92.193.107 << 'ENDSSH'
 sudo -S <<< "Azure.123456@e" yum update -y
 sudo -S <<< "Azure.123456@e" yum install java-1.8.0-openjdk -y
 sudo -S <<< "Azure.123456@e" wget http://apachemirror.wuchna.com/tomcat/tomcat-9/v9.0.27/bin/apache-tomcat-9.0.27.tar.gz

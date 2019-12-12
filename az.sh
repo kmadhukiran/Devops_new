@@ -1,6 +1,10 @@
 az login -u mkancharla@nisum.com -p Changeme@123
 az group create --name myResource1 --location eastus
-az vm create \ --resource-group myResource1 \ --name myVM \ --image CentOS \ --admin-username azureuser \ --admin-password Azure.123456
+az vm create \
+  --resource-group myResourceGroup \
+  --name myVm1 \
+  --generate-ssh-keys \
+  --no-wait
 az vm open-port --port 80 --resource-group myResource1 --name myVM
 az vm open-port --port 22 --resource-group myResource1 --name myVM
 sshpass -p 'Azure.123456' ssh -t -t -o StrictHostKeyChecking=no azureuser@40.121.48.14 << 'ENDSSH'

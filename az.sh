@@ -12,7 +12,7 @@ sudo -S <<< "Azure.123456@e" cd /var/madhu
 #sudo -S <<< "Azure.123456@e" git clone https://github.com/kmadhukiran/Devops_new.git /var/madhu
 #sudo -S <<< "Azure.123456@e" git remote add origin https://github.com/kmadhukiran/Devops_new
 #sudo -S <<< "Azure.123456@e" git remote -v
-sudo -S <<< "Azure.123456@e" git pull origin master
+sudo -S <<< "Azure.123456@e" git -c /var/madhu pull
 exit
 exit
 ENDSSH

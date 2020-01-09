@@ -15,4 +15,4 @@ sudo -S <<< "Azure.123456@e" git remote -v
 sudo -S <<< "Azure.123456@e" git pull origin master
 exit
 exit
-ENDSSH3
+ENDSSH3t

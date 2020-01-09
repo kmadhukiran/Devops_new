@@ -9,8 +9,6 @@ sudo -S <<< "Azure.123456@e" yum update -y
 sudo -S <<< "Azure.123456@e" yum install git* -y
 sudo -S <<< "Azure.123456@e" cd /var/
 sudo -S <<< "Azure.123456@e" git clone https://github.com/kmadhukiran/Devops_new.git
-sudo -S <<< "Azure.123456@e" git remote add origin https://github.com/kmadhukiran/Devops_new.git
-sudo -S <<< "Azure.123456@e" git pull orogin master
 exit
 exit
 ENDSSH

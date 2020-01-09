@@ -7,7 +7,6 @@ ip=$(az vm show --resource-group madhu09012020 --name task1 -d --query [publicIp
 sshpass -p 'Azure.123456@e' ssh -t -t -o StrictHostKeyChecking=no azureuser@$ip << 'ENDSSH'
 sudo -S <<< "Azure.123456@e" yum update -y
 sudo -S <<< "Azure.123456@e" yum install git* -y
-sudo -S <<< "Azure.123456@e" cd /var/
 sudo -S <<< "Azure.123456@e" git clone https://github.com/kmadhukiran/Devops_new.git
 exit
 exit

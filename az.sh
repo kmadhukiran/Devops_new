@@ -11,7 +11,7 @@ sudo -S <<< "Azure.123456@e" mkdir /var/madhu
 sudo -S <<< "Azure.123456@e" cd /var/madhu
 sudo -S <<< "Azure.123456@e" git init /var/madhu
 sudo -S <<< "Azure.123456@e" git clone https://github.com/kmadhukiran/Devops_new.git /var/madhu
-sudo -S <<< "Azure.123456@e" git remote add origin https://github.com/kmadhukiran/Devops_new.git
+sudo -S <<< "Azure.123456@e" git remote add origin https://github.com/kmadhukiran/Devops_new.git /var/madhu
 sudo -S <<< "Azure.123456@e" git remote -v
 sudo -S <<< "Azure.123456@e" git pull origin master
 exit

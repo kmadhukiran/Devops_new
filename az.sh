@@ -11,7 +11,7 @@ sudo -S <<< "Azure.123456@e" yum install git* -y
 #sudo -S <<< "Azure.123456@e" cd /home/azureuser/Devops_new
 #sudo -S <<< "Azure.123456@e" git remote add origin https://github.com/kmadhukiran/Devops_new.git
 #sudo -S <<< "Azure.123456@e" git remote -v
-sudo -S <<< "Azure.123456@e" git -v
+sudo -S <<< "Azure.123456@e" git init
 sudo -S <<< "Azure.123456@e" git pull origin master
 exit
 exit

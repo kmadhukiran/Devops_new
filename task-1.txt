@@ -17,6 +17,4 @@ git remote
 git push
 git pull
 git stash
-END OF FILEdffskg22
-123
-2
+

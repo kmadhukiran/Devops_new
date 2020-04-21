@@ -62,6 +62,7 @@ resource "azurerm_network_interface" "myterraformNIC" {
   name                = "AtmecsNICgroup"
   location            = "westus"
   resource_group_name = "${azurerm_resource_group.Atmecs.name}"
+  network_security_group_id = "${azurerm_network_security_group.myterraformsecurity.id}"
 
   ip_configuration {
     name                          = "AtmecsNICgroupconfig"

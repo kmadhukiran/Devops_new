@@ -1,6 +1,7 @@
 provider "azurerm" {
 version = "2.6.0"
-tenant_id = "29e12962-a1a8-4842-8aa3-c1272cdce010"   
+tenant_id = "29e12962-a1a8-4842-8aa3-c1272cdce010"
+features{}    
 }
 
 resource "azurerm_resource_group" "Atmecs"{

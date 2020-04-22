@@ -1,7 +1,7 @@
-provider "azurerm" {
-version = "2.2.0"
-features {}
-}
+//provider "azurerm" {
+//version = "2.2.0"
+//features {}
+//}
 
 resource "azurerm_resource_group" "Atmecs"{
     name      = "AtmecsGroup"

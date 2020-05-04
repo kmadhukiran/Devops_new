@@ -1,18 +1,6 @@
 provider "azurerm" {
 version = "2.6.0"
-    
- export ARM_CLIENT_ID="a1a32496-532d-4070-8b7b-784f2138129f"
-#export ARM_CLIENT_CERTIFICATE_PATH="/path/to/my/client/certificate.pfx"
- export ARM_CLIENT_CERTIFICATE_PASSWORD="Atmecs@123456"
- export ARM_SUBSCRIPTION_ID="1b7e5c1f-23b4-433c-93f5-75e0dd77e704"
- export ARM_TENANT_ID="29e12962-a1a8-4842-8aa3-c1272cdce010" 
-    
- variable "client_certificate_password" {}
-
-  subscription_id             = "1b7e5c1f-23b4-433c-93f5-75e0dd77e704"
-  client_id                   = "a1a32496-532d-4070-8b7b-784f2138129f"
- # client_certificate_path     = "/home/Atmecs/service-principal.pfx"
-  client_certificate_password =  var.client_certificate_password
+  client_certificate_password = "Atmecs@123456"
   tenant_id                   = "29e12962-a1a8-4842-8aa3-c1272cdce010"
     
 features{}    

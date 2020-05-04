@@ -1,7 +1,10 @@
 provider "azurerm" {
 version = "2.6.0"
-  client_certificate_password = "Atmecs@123456"
-  tenant_id                   = "29e12962-a1a8-4842-8aa3-c1272cdce010"
+export ARM_CLIENT_ID=$(ARM_CLIENT_ID)
+#export ARM_CLIENT_CERTIFICATE_PATH="/path/to/my/client/certificate.pfx"
+export ARM_CLIENT_CERTIFICATE_PASSWORD=$(ARM_CLIENT_CERTIFICATE_PASSWORD)
+export ARM_SUBSCRIPTION_ID=$(ARM_SUBSCRIPTION_ID)
+export ARM_TENANT_ID=$(ARM_TENANT_ID)
     
 features{}    
 }

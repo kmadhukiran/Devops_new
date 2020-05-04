@@ -1,6 +1,8 @@
 provider "azurerm" {
 version = "2.6.0"
+{
 az login --service-principal -u a1a32496-532d-4070-8b7b-784f2138129f -p 47fa31d1-ff76-482e-863d-86a2c8fd6d33 --tenant 29e12962-a1a8-4842-8aa3-c1272cdce010
+}
 features{}    
 }
 
